@@ -1,0 +1,104 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-logo{
+    height: 100px;
+    color: red;
+    margin-left: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.nav-items ul{
+    display: flex;
+    margin-top: 35px;
+    
+}
+.nav-items ul li{
+    list-style-type: none;
+    margin: 0px 35px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.filter{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.res-card{
+    width: 200px;
+    background-color: rgb(222, 208, 208);
+    border-radius: 5px;
+    padding: 5px;
+    
+    
+}
+.res-card h5{
+    margin-top: 17px;
+}
+.namedetails{
+    text-decoration: none;
+}
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.res-logo{
+    width: 100%;
+}
+.restaurant-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.restaurant-container a{
+    text-decoration: none;
+    color: black;
+}
+.shimmer-card{
+    width: 200px;
+    height: 350px;
+    background-color: rgb(222, 208, 208);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.shimmer-container{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.login-btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ratingdetails{
+    background-color: rgba(15, 173, 15, 0.737);
+    text-align: center;
+    width: 30%;
+    border-radius: 4px;
+    color: black;
+}
+
+
+
+.star-icon{
+    font-size: 14px;
+}
+.avg-rating-text{
+    padding-left: 3px;
+    font-size: 18px;
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
